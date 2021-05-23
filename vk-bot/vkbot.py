@@ -3,7 +3,7 @@ from vk_api.longpoll import VkLongPoll, VkEventType
 from vk_api.keyboard import VkKeyboard
 import random
 import requests
-token = """65a8640816aee2789c9fdd308959e1ebf4495823656da8c299fa8abdd357be8d3c248e1ee361a19dc75d7"""
+token = """ваш токен"""
 
 vk_session = vk_api.VkApi(token=token)
 longpoll = VkLongPoll(vk_session)
